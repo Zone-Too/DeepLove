@@ -1,0 +1,549 @@
+body{
+    
+    background-image: url(../image/pexels-ylanite-koppens-1445416.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #EDF4ED; */
+    margin-top: 10px;   
+}
+.nav{
+    width: 1300px;
+    height: 50px;
+    background-color: #97D9A1;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 0 0;
+
+}
+.nav .nav-title{
+    float: left;
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 70px;
+    color: #357E2E;
+}
+.nav .navsearch{
+    float: right;
+    font-size: 20px;
+    line-height: 50px;
+    margin-right: 70px;
+}
+.nav .navsearch input{
+    appearance: none;
+    display: block;
+    float: left;
+    line-height:30px;
+    margin-top:7px;
+    margin-left:-200px;
+    width: 400px;
+    outline: none;
+    border: 1px solid #357E2E;
+    border-radius: 7px;
+    font-size: 10px;
+    background-color: #ddfcdd;
+    letter-spacing: 3px;
+}
+.contain{
+    width: 1300px;
+    /* border: black 1px solid; */
+    margin: 0 auto;
+    background-color: honeydew;
+    border-radius: 5px;
+}
+.box1{
+    width: 950px;
+    height: 283px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box1 .top-title img{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.box1 .top-title{
+    height: 35px;
+}
+.box1 .top-title .name-time{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.box1 .top-title .name-time .username{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.box1 .top-title .name-time .usertime{
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 1px;
+    color: darkgrey;
+}
+.box1 .top-title button{
+    float: right;
+    margin:7px;
+    margin-top: 12px;
+}
+.box1 .bodybox{
+    /* background-color: darkgray; */
+    border-bottom: 1px #9A9A9A solid;
+}
+.box1 .bodybox .txt{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 20px;
+}
+.box1 .bodybox .img-list{
+    margin-left: 20px;
+}
+.box1 .bodybox .img-list img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.box1 .bottombox{
+    height: 30px;
+    /* border: 1px red solid ; */
+    /* background-color: darkkhaki; */
+}
+.box1 .bottombox .icon-transmit{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box1 .bottombox .icon-comment{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box1 .bottombox .icon-givelike{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+/* box2 */
+.box2{
+    width: 950px;
+    height: 283px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box2 .top-title img{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.box2 .top-title{
+    height: 35px;
+}
+.box2 .top-title .name-time{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.box2 .top-title .name-time .username{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.box2 .top-title .name-time .usertime{
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 1px;
+    color: darkgrey;
+}
+.box2 .top-title button{
+    float: right;
+    margin:7px;
+    margin-top: 12px;
+}
+.box2 .bodybox{
+    /* background-color: darkgray; */
+    border-bottom: 1px #9A9A9A solid;
+}
+.box2 .bodybox .txt{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 20px;
+}
+.box2 .bodybox .img-list{
+    margin-left: 20px;
+}
+.box2 .bodybox .img-list img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.box2 .bottombox{
+    height: 30px;
+    /* border: 1px red solid ; */
+    /* background-color: darkkhaki; */
+}
+.box2 .bottombox .icon-transmit{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box2 .bottombox .icon-comment{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box2 .bottombox .icon-givelike{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+/* box3 */
+.box3{
+    width: 950px;
+    height: 283px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box3 .top-title img{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.box3 .top-title{
+    height: 35px;
+}
+.box3 .top-title .name-time{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.box3 .top-title .name-time .username{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.box3 .top-title .name-time .usertime{
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 1px;
+    color: darkgrey;
+}
+.box3 .top-title button{
+    float: right;
+    margin:7px;
+    margin-top: 12px;
+}
+.box3 .bodybox{
+    /* background-color: darkgray; */
+    border-bottom: 1px #9A9A9A solid;
+}
+.box3 .bodybox .txt{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 20px;
+}
+.box3 .bodybox .img-list{
+    margin-left: 20px;
+}
+.box3 .bodybox .img-list img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.box3 .bottombox{
+    height: 30px;
+    /* border: 1px red solid ; */
+    /* background-color: darkkhaki; */
+}
+.box3 .bottombox .icon-transmit{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box3 .bottombox .icon-comment{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box3 .bottombox .icon-givelike{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+/* box4 */
+.box4{
+    width: 950px;
+    height: 283px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box4 .top-title img{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.box4 .top-title{
+    height: 35px;
+}
+.box4 .top-title .name-time{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.box4 .top-title .name-time .username{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.box4 .top-title .name-time .usertime{
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 1px;
+    color: darkgrey;
+}
+.box4 .top-title button{
+    float: right;
+    margin:7px;
+    margin-top: 12px;
+}
+.box4 .bodybox{
+    /* background-color: darkgray; */
+    border-bottom: 1px #9A9A9A solid;
+}
+.box4 .bodybox .txt{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 20px;
+}
+.box4 .bodybox .img-list{
+    margin-left: 20px;
+}
+.box4 .bodybox .img-list img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.box4 .bottombox{
+    height: 30px;
+    /* border: 1px red solid ; */
+    /* background-color: darkkhaki; */
+}
+.box4 .bottombox .icon-transmit{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box4 .bottombox .icon-comment{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box4 .bottombox .icon-givelike{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+/* box5 */
+.box5{
+    width: 950px;
+    height: 283px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box5 .top-title img{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 50%;
+    float: left;
+}
+.box5 .top-title{
+    height: 35px;
+}
+.box5 .top-title .name-time{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.box5 .top-title .name-time .username{
+    margin: 0;
+    padding: 0;
+    margin-top: 7px;
+    font-size: 15px;
+}
+.box5 .top-title .name-time .usertime{
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+    font-size: 1px;
+    color: darkgrey;
+}
+.box5 .top-title button{
+    float: right;
+    margin:7px;
+    margin-top: 12px;
+}
+.box5 .bodybox{
+    /* background-color: darkgray; */
+    border-bottom: 1px #9A9A9A solid;
+}
+.box5 .bodybox .txt{
+  font-size: 17px;
+  margin: 0;
+  margin-left: 20px;
+}
+.box5 .bodybox .img-list{
+    margin-left: 20px;
+}
+.box5 .bodybox .img-list img{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.box5 .bottombox{
+    height: 30px;
+    /* border: 1px red solid ; */
+    /* background-color: darkkhaki; */
+}
+.box5 .bottombox .icon-transmit{
+    float: left;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box5 .bottombox .icon-comment{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.box5 .bottombox .icon-givelike{
+    float: left;
+    margin-left: 377px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+/* box6 */
+
+.box6{
+    width: 850px;
+    height: 263px;
+    /* border: red 1px solid; */
+    margin: 0 auto;
+}
+
+.box6 .bodybox{
+    margin:20px;
+    margin-bottom: 0;
+}
+
+.box6 .title{
+    text-align: center;
+    color: 357E2E;
+    letter-spacing: 25px;
+}
+.box6 .bodybox textarea{
+    background-color: #ddfcdd;
+    border-style: none;
+    border: 2px #9A9A9A solid;
+    border-radius: 10px;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #357E2E;
+    letter-spacing: 3px;
+}
+
+.box6 .bodybox .b01{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box6 .bodybox .b02{
+    margin-left: 370px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+hr{
+    width: 73%;
+}
+button{
+    width: 120px;
+    letter-spacing: 5px;
+    background-color: #ddfcdd;
+    border-style: none;
+    border: 1px solid #357E2E ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #357E2E;
+}
+.box6 button{
+    background-color: #97D9A1;
+    height: 40px;
+    font-size: 20px;
+    color: #357E2E;
+    /* font-weight: bold; */
+
+}
+
+.box7{
+    height:20px;
+}
+.hr-bottom{
+    width: 100%;
+    margin-top: 15px;
+}
+.icon-transmit,.icon-comment,.icon-givelike{
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+.page-bottom{
+    height: 20px;
+}
+span{
+    font-size: 14px;
+    color: #357E2E;
+    cursor: pointer;
+}
